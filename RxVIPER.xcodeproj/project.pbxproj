@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F4DA33C037908125BD725C /* Pods_RxVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E1EF599A13D03474C17366 /* Pods_RxVIPER.framework */; };
+		CE057F832340FAC0001A30FA /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057F822340FAC0001A30FA /* CounterViewController.swift */; };
+		CE057F85234122E5001A30FA /* CounterViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057F84234122E5001A30FA /* CounterViewProtocol.swift */; };
+		CE057F8723412486001A30FA /* CounterAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057F8623412486001A30FA /* CounterAssembly.swift */; };
+		CE057F8923412B41001A30FA /* CounterPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057F8823412B41001A30FA /* CounterPresenterProtocol.swift */; };
+		CE057F8B23412F78001A30FA /* CounterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057F8A23412F78001A30FA /* CounterPresenter.swift */; };
+		CE2E36AA233F502D00A9F151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E36A9233F502D00A9F151 /* AppDelegate.swift */; };
+		CE2E36B3233F502F00A9F151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2E36B2233F502F00A9F151 /* Assets.xcassets */; };
+		CE2E36B6233F502F00A9F151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2E36B4233F502F00A9F151 /* LaunchScreen.storyboard */; };
+		CE42B38823450879006ED86B /* CounterInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42B38723450879006ED86B /* CounterInteractorProtocol.swift */; };
+		CE42B38A234508F2006ED86B /* CounterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42B389234508F2006ED86B /* CounterInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22B7FE587DD1A2DF277BBE29 /* Pods-RxVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxVIPER.debug.xcconfig"; path = "Target Support Files/Pods-RxVIPER/Pods-RxVIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		6CA102F1490B0F5EA7986E30 /* Pods-RxVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxVIPER.release.xcconfig"; path = "Target Support Files/Pods-RxVIPER/Pods-RxVIPER.release.xcconfig"; sourceTree = "<group>"; };
+		87E1EF599A13D03474C17366 /* Pods_RxVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE057F822340FAC0001A30FA /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		CE057F84234122E5001A30FA /* CounterViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewProtocol.swift; sourceTree = "<group>"; };
+		CE057F8623412486001A30FA /* CounterAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterAssembly.swift; sourceTree = "<group>"; };
+		CE057F8823412B41001A30FA /* CounterPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterPresenterProtocol.swift; sourceTree = "<group>"; };
+		CE057F8A23412F78001A30FA /* CounterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterPresenter.swift; sourceTree = "<group>"; };
+		CE2E36A6233F502D00A9F151 /* RxVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2E36A9233F502D00A9F151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2E36B2233F502F00A9F151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2E36B5233F502F00A9F151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2E36B7233F502F00A9F151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE42B38723450879006ED86B /* CounterInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInteractorProtocol.swift; sourceTree = "<group>"; };
+		CE42B389234508F2006ED86B /* CounterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterInteractor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2E36A3233F502D00A9F151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F4DA33C037908125BD725C /* Pods_RxVIPER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5051AED9558724247D2D57D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E1EF599A13D03474C17366 /* Pods_RxVIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2E369D233F502D00A9F151 = {
+			isa = PBXGroup;
+			children = (
+				CE2E36A8233F502D00A9F151 /* RxVIPER */,
+				CE2E36A7233F502D00A9F151 /* Products */,
+				E8962FED116E10E6020A3BF8 /* Pods */,
+				5051AED9558724247D2D57D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2E36A7233F502D00A9F151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E36A6233F502D00A9F151 /* RxVIPER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2E36A8233F502D00A9F151 /* RxVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E36BE233F518500A9F151 /* Modules */,
+				CE2E36BD233F504000A9F151 /* Supporting files */,
+				CE2E36A9233F502D00A9F151 /* AppDelegate.swift */,
+			);
+			path = RxVIPER;
+			sourceTree = "<group>";
+		};
+		CE2E36BD233F504000A9F151 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E36B7233F502F00A9F151 /* Info.plist */,
+				CE2E36B4233F502F00A9F151 /* LaunchScreen.storyboard */,
+				CE2E36B2233F502F00A9F151 /* Assets.xcassets */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		CE2E36BE233F518500A9F151 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E36BF233F518C00A9F151 /* Counter */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE2E36BF233F518C00A9F151 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E36C3233F51B100A9F151 /* Assembly */,
+				CE2E36C2233F51AB00A9F151 /* Interactor */,
+				CE2E36C1233F51A700A9F151 /* Presenter */,
+				CE2E36C0233F51A100A9F151 /* View */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
+		CE2E36C0233F51A100A9F151 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE057F822340FAC0001A30FA /* CounterViewController.swift */,
+				CE057F84234122E5001A30FA /* CounterViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE2E36C1233F51A700A9F151 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE057F8823412B41001A30FA /* CounterPresenterProtocol.swift */,
+				CE057F8A23412F78001A30FA /* CounterPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CE2E36C2233F51AB00A9F151 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CE42B38723450879006ED86B /* CounterInteractorProtocol.swift */,
+				CE42B389234508F2006ED86B /* CounterInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CE2E36C3233F51B100A9F151 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CE057F8623412486001A30FA /* CounterAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		E8962FED116E10E6020A3BF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22B7FE587DD1A2DF277BBE29 /* Pods-RxVIPER.debug.xcconfig */,
+				6CA102F1490B0F5EA7986E30 /* Pods-RxVIPER.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2E36A5233F502D00A9F151 /* RxVIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2E36BA233F502F00A9F151 /* Build configuration list for PBXNativeTarget "RxVIPER" */;
+			buildPhases = (
+				757EE3C750A4D2321238ECFC /* [CP] Check Pods Manifest.lock */,
+				CE2E36A2233F502D00A9F151 /* Sources */,
+				CE2E36A3233F502D00A9F151 /* Frameworks */,
+				CE2E36A4233F502D00A9F151 /* Resources */,
+				6DF75D7C8E36077804C9B868 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxVIPER;
+			productName = RxVIPER;
+			productReference = CE2E36A6233F502D00A9F151 /* RxVIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2E369E233F502D00A9F151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Grisme Team, LLC.";
+				TargetAttributes = {
+					CE2E36A5233F502D00A9F151 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = CE2E36A1233F502D00A9F151 /* Build configuration list for PBXProject "RxVIPER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2E369D233F502D00A9F151;
+			productRefGroup = CE2E36A7233F502D00A9F151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2E36A5233F502D00A9F151 /* RxVIPER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2E36A4233F502D00A9F151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2E36B6233F502F00A9F151 /* LaunchScreen.storyboard in Resources */,
+				CE2E36B3233F502F00A9F151 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DF75D7C8E36077804C9B868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxVIPER/Pods-RxVIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxVIPER/Pods-RxVIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxVIPER/Pods-RxVIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		757EE3C750A4D2321238ECFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxVIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2E36A2233F502D00A9F151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE057F8723412486001A30FA /* CounterAssembly.swift in Sources */,
+				CE057F8923412B41001A30FA /* CounterPresenterProtocol.swift in Sources */,
+				CE2E36AA233F502D00A9F151 /* AppDelegate.swift in Sources */,
+				CE42B38823450879006ED86B /* CounterInteractorProtocol.swift in Sources */,
+				CE057F832340FAC0001A30FA /* CounterViewController.swift in Sources */,
+				CE42B38A234508F2006ED86B /* CounterInteractor.swift in Sources */,
+				CE057F85234122E5001A30FA /* CounterViewProtocol.swift in Sources */,
+				CE057F8B23412F78001A30FA /* CounterPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE2E36B4233F502F00A9F151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2E36B5233F502F00A9F151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2E36B8233F502F00A9F151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2E36B9233F502F00A9F151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2E36BB233F502F00A9F151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B7FE587DD1A2DF277BBE29 /* Pods-RxVIPER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLB3QWZPEY;
+				INFOPLIST_FILE = RxVIPER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grismeteam.RxVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE2E36BC233F502F00A9F151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA102F1490B0F5EA7986E30 /* Pods-RxVIPER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLB3QWZPEY;
+				INFOPLIST_FILE = RxVIPER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grismeteam.RxVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2E36A1233F502D00A9F151 /* Build configuration list for PBXProject "RxVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E36B8233F502F00A9F151 /* Debug */,
+				CE2E36B9233F502F00A9F151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2E36BA233F502F00A9F151 /* Build configuration list for PBXNativeTarget "RxVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E36BB233F502F00A9F151 /* Debug */,
+				CE2E36BC233F502F00A9F151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2E369E233F502D00A9F151 /* Project object */;
+}
